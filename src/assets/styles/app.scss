@@ -1,0 +1,16 @@
+.app {
+  display: flex;
+  > div {
+    width: 50%;
+    height: 100vh;
+    &:last-child {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      > img {
+        width: 50%;
+      }
+    }
+  }
+}
